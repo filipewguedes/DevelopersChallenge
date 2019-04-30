@@ -77,3 +77,6 @@ match = Numero da partida(Segue-se a ordem das partidas retornadas pelo metodo G
 score1 = resultado time 1
 score2 = resultado do time 2
 
+------------
+
+Ps : A arquitetura ta longe do ideal, foi oque deu pra fazer em um dia pra atender os requisitos
