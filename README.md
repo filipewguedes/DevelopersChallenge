@@ -36,3 +36,44 @@ Tenha capricho com seu código e com o resultado final. Essa é a sua chance de 
 **NIBO - Desenvolvimento de alta performance para geeks inquietos**
 
 Boa sorte :D
+
+
+
+------------
+
+Isto é uma API Rest
+Seguem abaixo os endpoints
+
+------------
+
+*Get*
+/Tournament
+Retorna todas as partidas e seus resultados(Quando o torneio foi iniciado, veja abaixo como)
+
+*Get*
+/Tournament/Winner
+Retorna o campeao do torneio
+
+*Post*
+/Tournament/Teams
+> NomeTime
+
+Adiciona um time ao torneio
+
+*Post*
+/Tournament/Start
+Inicia o torneio e cria as partidas
+
+*Post*
+/Tournament
+> {
+"match" : 0,
+"score1" : 2,
+"score2" : 1
+}
+
+Insere o resultado de uma partida
+match = Numero da partida(Segue-se a ordem das partidas retornadas pelo metodo Get)
+score1 = resultado time 1
+score2 = resultado do time 2
+
